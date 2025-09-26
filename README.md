@@ -28,4 +28,4 @@
 
 [Конфигурационный файл backup_home.sh] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/backup_home.sh)
 
-
+[Файл crontab] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/crontab)
