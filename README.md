@@ -23,3 +23,12 @@
 
 ## Результат выполнения
 <img width="726" height="494" alt="image" src="https://github.com/user-attachments/assets/1e2cf001-8c24-4593-9990-f8a87ff1591d" />
+
+### Задание 2
+
+## Конфигурационный файл backup_home.sh:
+
+
+[Конфигурационный файл backup_home.sh] (file/backup_home.sh)
+
+
