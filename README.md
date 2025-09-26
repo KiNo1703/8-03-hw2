@@ -29,3 +29,8 @@
 [Конфигурационный файл backup_home.sh] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/backup_home.sh)
 
 [Файл crontab] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/crontab)
+
+## Результат работы утилиты.
+
+<img width="813" height="292" alt="image" src="https://github.com/user-attachments/assets/8f9d24aa-cc12-429a-9eda-2198d203458b" />
+
