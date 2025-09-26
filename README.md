@@ -26,9 +26,6 @@
 
 ### Задание 2
 
-## Конфигурационный файл backup_home.sh:
-
-
-[Конфигурационный файл backup_home.sh] (file/backup_home.sh)
+[Конфигурационный файл backup_home.sh] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/backup_home.sh)
 
 
