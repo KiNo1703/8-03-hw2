@@ -4,7 +4,7 @@
 
 ## Команда rsync:
 
-`rsync -avh --checksum --exclude='.*' /home/$USER/ /tmp/backup/`
+`rsync -avh --checksum --exclude='.*' /home/kirill/ /tmp/backup/`
 
 -a - архивный режим (сохраняет права, владельца, временные метки)
 
@@ -16,6 +16,10 @@
 
 --exclude='.*' - исключает все файлы и директории, начинающиеся с точки (скрытые)
 
-/home/$USER/ - исходная директория (обратите внимание на слеш в конце)
+/home/kirill/ - исходная директория 
 
 /tmp/backup/ - целевая директория
+
+
+## Результат выполнения
+<img width="726" height="494" alt="image" src="https://github.com/user-attachments/assets/1e2cf001-8c24-4593-9990-f8a87ff1591d" />
