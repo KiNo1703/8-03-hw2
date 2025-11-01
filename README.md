@@ -1,36 +1,17 @@
-# Домашнее задание к занятию "Резервное копирование" - Новиков Кирилл
+# Домашнее задание к занятию «ELK» - Новиков Кирилл
 
-### Задание 1
-
-## Команда rsync:
-
-`rsync -avh --checksum --exclude='.*' /home/kirill/ /tmp/backup/`
-
--a - архивный режим (сохраняет права, владельца, временные метки)
-
--v - подробный вывод (verbose)
-
--h - человеко-читаемые размеры файлов
-
---checksum - подсчет хэш-сумм для всех файлов (вместо сравнения по времени и размеру)
-
---exclude='.*' - исключает все файлы и директории, начинающиеся с точки (скрытые)
-
-/home/kirill/ - исходная директория 
-
-/tmp/backup/ - целевая директория
+### Задание 1. Elasticsearch
 
 
-## Результат выполнения
-<img width="726" height="494" alt="image" src="https://github.com/user-attachments/assets/1e2cf001-8c24-4593-9990-f8a87ff1591d" />
 
-### Задание 2
+<img width="895" height="416" alt="image" src="https://github.com/user-attachments/assets/07c4e08e-b479-43e4-af7b-342873f86ebd" />
 
-[Конфигурационный файл backup_home.sh] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/backup_home.sh)
+Скрин где видно виден нестандартный cluster_name
 
-[Файл crontab] (https://github.com/KiNo1703/8-03-hw2/blob/main/file/crontab)
 
-## Результат работы утилиты.
 
-<img width="813" height="292" alt="image" src="https://github.com/user-attachments/assets/8f9d24aa-cc12-429a-9eda-2198d203458b" />
+### Задание 2. Kibana
 
+<img width="1908" height="793" alt="image" src="https://github.com/user-attachments/assets/0541f459-a888-4e26-b181-302f428abb57" />
+
+Скрин где  выполнен запрос GET /_cluster/health?pretty.
