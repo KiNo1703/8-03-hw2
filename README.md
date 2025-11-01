@@ -28,7 +28,8 @@
 
 ### Задание 4. Filebeat.
 
-![Uploading image.png…]()
+<img width="1659" height="758" alt="image" src="https://github.com/user-attachments/assets/c7386c5c-0886-485f-a6fe-0599226ef8db" />
+
 
 
 Скрин интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat
