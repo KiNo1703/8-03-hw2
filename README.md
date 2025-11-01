@@ -26,5 +26,9 @@
 
 
 
-### Задание 3. Logstash
+### Задание 4. Filebeat.
 
+![Uploading image.png…]()
+
+
+Скрин интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat
