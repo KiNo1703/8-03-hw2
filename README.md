@@ -4,19 +4,19 @@
 
 
 
-### 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
+# 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
 
-# Обновление системы
+## Обновление системы
 sudo apt update && sudo apt upgrade -y
 
-# Установка MySQL
+## Установка MySQL
 sudo apt install mysql-server -y
 
-# Запуск службы
+## Запуск службы
 sudo systemctl start mysql
 sudo systemctl enable mysql
 
-# Проверка статуса 
+## Проверка статуса 
 sudo systemctl status mysql
 
 <img width="852" height="608" alt="image" src="https://github.com/user-attachments/assets/c6207bd7-26ec-4ff2-9729-5154080d9c30" />
