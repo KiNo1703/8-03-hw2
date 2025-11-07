@@ -28,7 +28,7 @@ sudo systemctl status mysql
 
 Подключение к MySQL 
 
-~sudo mysql -u root -p~
+'sudo mysql -u root -p'
 
 Создание пользователя sys_temp
 
