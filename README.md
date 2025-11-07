@@ -4,7 +4,7 @@
 
 
 
-# 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
+## 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
 
  Обновление системы
 ```sudo apt update && sudo apt upgrade -y```
@@ -24,7 +24,7 @@
 Скрин статуса 
 
 
-# 1.2. Манипуляции с пользовтелем sys_temp.
+## 1.2. Манипуляции с пользовтелем sys_temp.
 
 Подключение к MySQL 
 
@@ -63,7 +63,7 @@
 
 Скрин подключение под пользователем sys_temp.
 
-# 1.3. Восстановливаем дамп в базу данных.
+## 1.3. Восстановливаем дамп в базу данных.
 
 Создаем базу данных sakila
 
@@ -106,5 +106,12 @@
 
 
 # Задание 2
+
+```SELECT  TABLE_NAME AS 'Table_Name', COLUMN_NAME AS 'Primary_Key'FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGEWHERE CONSTRAINT_NAME = 'PRIMARY'AND TABLE_SCHEMA = 'sakila'ORDER BY TABLE_NAME;```
+
+
+<img width="468" height="641" alt="image" src="https://github.com/user-attachments/assets/0587fea2-d32d-476e-ac2d-2265d2ff0295" />
+
+Скрин созданой таблицы 
 
 
