@@ -86,8 +86,18 @@ sudo systemctl status mysql
 Проверка после восстановления
 
 ```USE sakila;```
+
 ```SHOW TABLES;```
+
 ```SELECT COUNT(*) AS film_count FROM film;```
+
 ```SELECT COUNT(*) AS customer_count FROM customer;```
+
 ```SELECT COUNT(*) AS rental_count FROM rental;```
+
+<img width="918" height="901" alt="image" src="https://github.com/user-attachments/assets/d745ee67-bbea-4723-8e8c-fd63c087e71e" />
+
+Скрин восстановления
+
+
 
