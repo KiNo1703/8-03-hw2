@@ -28,11 +28,11 @@ sudo systemctl status mysql
 
 Подключение к MySQL 
 
-''sudo mysql -u root -p''
+'' sudo mysql -u root -p ''
 
 Создание пользователя sys_temp
 
-CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'temp_password123';
+CREATE USER 'sys_temp'@'localhost ' IDENTIFIED BY 'temp_password123';
 
 Предоставление прав 
  
