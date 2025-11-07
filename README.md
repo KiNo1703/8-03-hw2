@@ -26,9 +26,9 @@ sudo systemctl status mysql
 
 # 1.2. Создайте учётную запись sys_temp.
 
-Подключись к MySQL если еще не подключен
+Подключение к MySQL 
 
-sudo mysql -u root -p
+~sudo mysql -u root -p~
 
 Создание пользователя sys_temp
 
