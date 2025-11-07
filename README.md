@@ -24,7 +24,25 @@ sudo systemctl status mysql
 Скрин статуса 
 
 
-### 1.2. Создайте учётную запись sys_temp.
+# 1.2. Создайте учётную запись sys_temp.
+
+-- Подключись к MySQL если еще не подключен
+sudo mysql -u root -p
+
+-- Создание пользователя sys_temp
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'temp_password123';
+
+-- Предоставление прав (базовые права для работы)
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+
+-- Или если нужны ограниченные права, то:
+-- GRANT SELECT, INSERT, UPDATE, DELETE ON *.* TO 'sys_temp'@'localhost';
+
+-- Обновление привилегий
+FLUSH PRIVILEGES;
+
+
+
 
 ### 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
