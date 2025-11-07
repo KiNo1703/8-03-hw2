@@ -100,4 +100,10 @@ sudo systemctl status mysql
 Скрин восстановления
 
 
+<img width="1193" height="771" alt="image" src="https://github.com/user-attachments/assets/a55ca28e-1001-4957-9457-de2662dd9c05" />
+
+Скрин всех таблиц базы данных
+
+
+
 
