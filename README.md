@@ -32,15 +32,15 @@ sudo systemctl status mysql
 
 Создание пользователя sys_temp
 
-CREATE USER 'sys_temp'@'localhost ' IDENTIFIED BY 'temp_password123';
+```CREATE USER 'sys_temp'@'localhost ' IDENTIFIED BY 'temp_password123';```
 
 Предоставление прав 
  
-GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+```GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';```
 
 Обновление привилегий
 
-FLUSH PRIVILEGES;
+```FLUSH PRIVILEGES;```
 
 
 
