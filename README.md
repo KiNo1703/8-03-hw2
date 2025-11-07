@@ -20,6 +20,7 @@ sudo systemctl enable mysql
 sudo systemctl status mysql
 
 <img width="852" height="608" alt="image" src="https://github.com/user-attachments/assets/c6207bd7-26ec-4ff2-9729-5154080d9c30" />
+
 Скрин статуса 
 
 
