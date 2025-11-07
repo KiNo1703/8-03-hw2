@@ -24,7 +24,7 @@ sudo systemctl status mysql
 Скрин статуса 
 
 
-# 1.2. Создайте учётную запись sys_temp.
+# 1.2. Манипуляции с пользовтелем sys_temp.
 
 Подключение к MySQL 
 
@@ -53,38 +53,41 @@ sudo systemctl status mysql
 
 <img width="745" height="499" alt="image" src="https://github.com/user-attachments/assets/bf4d1cca-a53e-4c6e-9f73-30749f02b2a6" />
 
-Скрин пользователя sys_temp 
+Скрин пользователей и наличе прав
 
-# 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+Подключение под sys_temp
 
-### 1.4. Дайте все права для пользователя sys_temp.
+```mysql -u sys_temp -p```
 
-### 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+<img width="718" height="227" alt="image" src="https://github.com/user-attachments/assets/7c910a4e-69ed-45f8-913f-1a64ec8f826a" />
 
-### 1.6. Переподключитесь к базе данных от имени sys_temp.
+Скрин подключение под пользователем sys_temp.
 
+# 1.3. Восстановливаем дамп в базу данных.
 
+Создаем базу данных sakila
 
-### Задание 2. Kibana
+```CREATE DATABASE IF NOT EXISTS sakila;```
 
-<img width="1908" height="793" alt="image" src="https://github.com/user-attachments/assets/0541f459-a888-4e26-b181-302f428abb57" />
+ Выходим из MySQL
+ 
+```EXIT;```
 
-Скрин где  выполнен запрос GET /_cluster/health?pretty.
+Восстанавливаем дамп из командной строки:
 
+ Восстанавливаем схему
+ 
+```sudo mysql -u root -p < sakila-db/sakila-schema.sql```
 
-### Задание 3. Logstash
+ Восстанавливаем данные
+ 
+```sudo mysql -u root -p < sakila-db/sakila-data.sql```
 
-<img width="1648" height="800" alt="image" src="https://github.com/user-attachments/assets/97ccbc5b-4ce6-40d0-a3ab-6992a6443b55" />
+Проверка после восстановления
 
+```USE sakila;```
+```SHOW TABLES;```
+```SELECT COUNT(*) AS film_count FROM film;```
+```SELECT COUNT(*) AS customer_count FROM customer;```
+```SELECT COUNT(*) AS rental_count FROM rental;```
 
-Скрин интерфейса Kibana, на котором видны логи Nginx.
-
-
-
-### Задание 4. Filebeat.
-
-<img width="1659" height="758" alt="image" src="https://github.com/user-attachments/assets/c7386c5c-0886-485f-a6fe-0599226ef8db" />
-
-
-
-Скрин интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat
