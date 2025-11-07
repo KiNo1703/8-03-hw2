@@ -42,10 +42,20 @@ sudo systemctl status mysql
 
 ```FLUSH PRIVILEGES;```
 
+Проверка существующих пользователей
+
+```SELECT user, host FROM mysql.user WHERE user = 'sys_temp';```
+
+Проверка прав пользователя
+
+```SHOW GRANTS FOR 'sys_temp'@'localhost';```
 
 
+<img width="745" height="499" alt="image" src="https://github.com/user-attachments/assets/bf4d1cca-a53e-4c6e-9f73-30749f02b2a6" />
 
-### 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+Скрин пользователя sys_temp 
+
+# 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
 ### 1.4. Дайте все права для пользователя sys_temp.
 
