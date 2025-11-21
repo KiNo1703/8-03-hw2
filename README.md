@@ -30,11 +30,21 @@ Master-Master репликация
 
 # Задание 2
 
-```SELECT  TABLE_NAME AS 'Table_Name', COLUMN_NAME AS 'Primary_Key'FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGEWHERE CONSTRAINT_NAME = 'PRIMARY'AND TABLE_SCHEMA = 'sakila'ORDER BY TABLE_NAME;```
+<img width="1055" height="316" alt="image" src="https://github.com/user-attachments/assets/40abd55d-502a-4f35-89a0-7dddc8d61b6a" />
+ Конфигурация репликации Master
 
 
-<img width="468" height="641" alt="image" src="https://github.com/user-attachments/assets/0587fea2-d32d-476e-ac2d-2265d2ff0295" />
+Конфигурация репликации Slave
 
-Скрин созданой таблицы 
+<img width="1065" height="218" alt="image" src="https://github.com/user-attachments/assets/ef4dd90a-8109-4aa6-af70-4fb3f061d4dd" />
 
+Контейнеры запущены
+
+<img width="1036" height="148" alt="image" src="https://github.com/user-attachments/assets/12d62691-f1f0-4060-950f-ac0fb40d6c10" />
+Репликация работает
+
+
+<img width="1068" height="432" alt="image" src="https://github.com/user-attachments/assets/c6c25fa9-418a-4797-ba3f-814bd0fbf635" />
+
+ Данные на Master и на Slave
 
