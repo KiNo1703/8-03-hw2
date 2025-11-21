@@ -33,7 +33,7 @@ Master-Master репликация
 <img width="1055" height="316" alt="image" src="https://github.com/user-attachments/assets/40abd55d-502a-4f35-89a0-7dddc8d61b6a" />
  Конфигурация репликации Master
 
-file/slave.txt
+(./file/slave.txt)
 Конфигурация репликации Slave
 
 <img width="1065" height="218" alt="image" src="https://github.com/user-attachments/assets/ef4dd90a-8109-4aa6-af70-4fb3f061d4dd" />
